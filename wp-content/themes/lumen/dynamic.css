@@ -1,0 +1,42 @@
+/* BEGIN lumen_options_css */
+/* Primary typography */
+body, .widget_calendar caption, .noresults-page p, #toggle-sidebar, #toggle-categories {
+  
+}
+
+/* Secondary typography */
+.widget, .pricing-table .price small, .post-date span.date, .tags span, .toggle-comments, #respond h3 a, .logged-in-as, .logged-in-as a, .work-title span.date {
+  
+}
+
+h1 {  }
+h2 {  }
+h3 {  }
+h4 {  }
+h5 {  }
+h6 {  }
+
+.post-content p {
+  
+}
+.work-content p {
+  
+}
+/* END lumen_options_css */
+/* BEGIN lumen_custom_css */
+#menu-sitenav .menu-item:before { 
+	display: block;
+	position: absolute;
+	height: 10px; width: 10px;
+	bottom: 5px; right: 5px;
+	border: 1px solid white;
+	border-radius: 10px;
+	color: white;
+	font-size: 11px;
+	font-weight: 400;
+}
+
+#menu-item-18:before {
+	content: "1"
+}
+/* END lumen_custom_css */
